@@ -1,0 +1,22 @@
+{
+  "host": "localhost",
+  "port": 3333,
+  "mongodb": "mongodb://localhost:27017/lotto",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "Z4xhg3bYNg9L3d43JxoWrHvlrBmO3xULUymsIDGs46x8L1qkgrj15Svml2WGsTs1RhERBsVe8fNrj8otejTbOQ=="
+    },
+    "local": {},
+    "facebook": {
+      "clientID": "214709108937055",
+      "clientSecret": "f8139dd5e0613e4aca8a70c0c07393a7",
+      "permissions": {
+        "scope": [
+          "public_profile",
+          "email"
+        ]
+      }
+    }
+  }
+}
